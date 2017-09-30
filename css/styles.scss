@@ -1,6 +1,12 @@
+//---------GLOBAL VARIABLES----------//
+$banner: rgb(246, 148, 5);
+
+
+
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 header {
   background-image: url("../images/banner_headphones.jpg");
@@ -8,45 +14,58 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
-  position: relative; }
-  header h1 {
+  position: relative;
+
+  h1 {
     position: absolute;
     top: 270px;
     left: 70px;
     color: white;
-    font-size: 150px; }
-  header .track_img {
+    font-size: 150px;
+  }
+
+  .track_img {
     position: absolute;
     top: 380px;
     left: 635px;
     border-radius: 100px;
-    width: 200px; }
+    width: 200px;
+  }
+}
 
-#permalink_url {
+#permalink_url{
   color: black;
   text-decoration: none;
   position: relative;
   bottom: 50px;
-  left: 550px; }
+  left: 550px;
+}
 
-#permalink_url:hover {
+#permalink_url:hover{
   cursor: pointer;
-  color: rgba(255, 150, 0, 0.6); }
+  color: rgba(255, 150, 0, 0.6);
+}
 
-.track_name {
+.track_name{
   text-align: center;
   margin: 100px auto;
   font-size: 40px;
   border-bottom: 1px solid grey;
-  width: 700px; }
+  width: 700px;
+}
 
-#songControls {
-  text-align: center; }
+#songControls{
+  text-align: center;
+
+}
 
 .fa {
-  margin-left: 50px; }
+  margin-left: 50px;
+}
 
-#created_at {
+#created_at{
   position: absolute;
   bottom: 5px;
-  left: 20px; }
+  left: 20px;
+}
+
